@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Business</title>
+  <link rel="stylesheet" href="css/main-about.css">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Raleway&display=swap" rel="stylesheet"> 
+</head>
+<body>
+  <section>
+    <div class="content">
+      <div class="information-text">
+        <div class="header_text-main">
+          <h1 class="menu__list"><span class="text first-text">Бизнес и</span></h1>
+          <h1 class="menu__list"><span class="text sec-text"></span></h1>
+        </div>
+        <div class="container">
+          <ul class="border">
+            <li>У нас вы узнаете, что такое Бизнес и Маркетинг.</li>
+            <li>Какие бывают виды маркетинга.</li>
+            <li>Что такое StartUp.</li>
+            <li>Что связывает Бизнес и Маркетинг.</li>
+            <li>Маркетинг и его эффективность.</li>
+          </ul>
+
+          <div class="button-wrapper">
+            <a href="index.html" class="button31" tabindex="0"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script>
+    const text = document.querySelector(".sec-text");
+    const textLoad = () => {
+      setTimeout(() => {
+        text.textContent = "Маркетинг";
+      }, 0);
+      setTimeout(() => {
+        text.textContent = "StartUp";
+      }, 4000); // 4000ms = 4s
+    }
+    textLoad();
+    setInterval(textLoad, 8000);
+  </script>
+</body>
+</html>

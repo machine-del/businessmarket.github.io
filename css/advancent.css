@@ -1,0 +1,155 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lora', serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+
+.header {
+    width: 100%;
+    background: rgba(50, 50, 51, 0.7);
+}
+
+.header__inner .text.first-text {
+    color: #FFF;
+}
+
+.header_text-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 10px;
+}
+
+.menu > ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.header__inner {
+    padding-top: 40px;
+    padding-bottom: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.menu__list {
+    display: flex;
+    gap: 75px;
+}
+
+.menu__list-link {
+    color: rgb(255, 252, 252);
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.main-container {
+    color: white;
+    padding: 73px;
+    max-width: 1920px;
+    min-height: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.information-container { 
+    color: white;
+    width: 100%; 
+    padding: 2em;
+}
+
+.shine-button {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 30px;
+    margin: 20px 20px;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid #fe6637;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fe6637;
+    transition: .2s ease-in-out;
+    opacity: 1;
+  }
+  .shine-button:before {
+    content: "";
+    background: linear-gradient(90deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, .5));
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: -8px;
+    left: -75px;
+    transform: skewX(-45deg);
+  }
+  .shine-button:hover {
+    background: #fe6637;
+    color: #fff;
+  }
+  .shine-button:hover::before {
+    left: 150px;
+    transition: .5s ease-in-out;
+  }
+  
+.text-info {
+    text-align: center;
+    width: 30em; 
+    background: #4070F4;
+    border-radius: 15px;
+    padding: 2em;
+    margin: 0 auto;
+}  
+
+.p-info {
+    text-align: center;
+    padding-bottom: 1em;
+    font-weight: bold;
+}
+
+.content-info {
+    display: inline-block;
+    width: 600px;
+    height: auto;
+    padding: 2em;
+    line-height: 1.2em;
+    font-size: 1.5em;
+    background: #FFF;
+    color: black;
+    border-radius: 8px;
+}
+
+.block-ptext-info {
+    margin-top: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    gap: 3em;
+}
+
+#div {
+    height: 130vh;
+}

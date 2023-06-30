@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StartUp</title>
+  <link rel="stylesheet" href="css/advancent.css">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <div class="intro" id="div">
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="header__inner">
+            <a href="index.html">
+              <img src="img/img__logo.svg" alt="Error img" class="logo__img" width="50px">
+            </a>
+            <div class="header_text-main">
+              <h1 class="menu__list"><span class="text first-text">Продвижение бизнеса и Стартап</span></h1>
+            </div>
+            <nav class="menu">
+              <ul class="menu__list">
+                <li class="menu__list-item menu__list-link">Стартап</li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+    </div>
+      <a href="page2.html" class="shine-button" id="back-btn">Вернуться на главную</a>
+    <div class="information-container ">
+      <div class="content-one">
+        <h1 class="text-info">Что такое <i>Стартап</i>?</h1>
+        <div class="block-ptext-info">
+          <div class="content-info">
+            <p class="p-info"><b>StartUp</b> это ?</p>
+            <p><b>Стартап</b> в привычном понимании — это новая компания или бизнес, который был создан недавно. Наиболее полное определение этого явления.</p>
+            <p><br><b>Сейчас</b> стартапом называют коммерческий проект, который тестирует бизнес-идею. Стартап нельзя назвать полноценным бизнесом, который зарабатывает деньги отработанным способом. Его главная задача — выяснить, будет продукт или сервис интересен потребителю или нет.</p>
+          </div>
+          <div class="content-info">
+            <p class="p-info">В чем разница между стартапом и бизнесом?</p>
+            <p>А основное отличие в том, что бизнес применяет готовую модель развития, стартап же ищет новую. Чтобы открыть свое кафе, владелец использует всем известную модель. Сначала он ищет помещение, затем набирает персонал и разрабатывает меню.</p>
+            <p><br><b>Самое</b> главное в стартапе – это команда. Ошибочно думать, что если ты на ранней стадии, то и работать нужно с теми, кто только в начале пути.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/p5.min.js"></script>
+  <script src="js/vanta.topology.min.js"></script>
+  <script>
+    VANTA.TOPOLOGY({
+      el: "#div",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      maxHeight: 600.00,
+      minWidth: 200.00,
+      scale: 1.00,
+      scaleMobile: 1.00,
+      color: 0xc4f500,
+      backgroundColor: 0x90f0f
+    })
+  </script>
+</body>
+</html>
